@@ -1,26 +1,69 @@
-# Carl_Thabang_212_Coffee CMPG212 Module
+#  Carl_Thabang_212_Coffee — CMPG212 Assessment Project
 
-The purpose of this assessment is to test how well you are able to integrate the concepts that you
-have learned in SU1 and SU2 into a basic Windows Application. 
+Welcome to the **Beelte-Cafe Digital Ordering System** — a Windows Forms application developed as part of the CMPG212 module. This project demonstrates the practical integration of programming concepts covered in **SU1** and **SU2**, focusing on user interface design, database management, and basic reporting.
 
-Create an app that can help Beelte-Cafe!
-The coffee shop wants to ensure they maintain high client satisfaction. It is for this reason that the
-shop decided to digitalize its ordering and bookkeeping. In this regard, the shop approached you
-with the following specifications:
+---
 
-• The application should initiate with a professional welcome screen.
-• Clients should be able to easily order a variety of coffee, tea, pastries, and sandwiches. (hint,
-clients do not like a bunch of pop-up screens – MDIs might help get around this).
-• Clients should also be able to review their selection and remove an item from their list
-before they submit their order.
-• Once the clients submitted their order, they should be presented with a receipt screen – all
-orders should be captured in a separate table.
-• For bookkeeping purposes, BeelteCaf prefers having a separate table for all the drinks and
-food. The application should allow staff to log into the system/application where they can
-see accounting information such as how many of what was sold, at what time, best-selling
-items, profit, etc.
-• Staff members should be allowed to update the database when an item is sold out, when
-there are new specials, when a new coffee is introduced, and when an item is no longer
-being served.
-• Staff said they would also like to have the flexibility to generate custom reports and filter the
-database.
+##  Project Overview
+
+The goal of this application is to modernize and streamline the operations of **Beelte-Cafe**, enhancing customer experience and supporting staff with effective bookkeeping tools. The system allows clients to place orders, view receipts, and enables staff to manage inventory and generate reports.
+
+---
+
+##  Features & Requirements
+
+###  User Interface
+- A **professional welcome screen** when the application launches.
+- A **centralized interface** (e.g., MDI - Multiple Document Interface) to avoid pop-up fatigue.
+- Simple navigation for both clients and staff.
+
+### 🛍️ Client Ordering System
+- Select from a range of **coffee, tea, pastries, and sandwiches**.
+- **Order review screen** where items can be removed before final submission.
+- Upon submitting, display a **receipt screen** summarizing the order.
+- All completed orders are stored in an **orders table** for tracking.
+
+###  Bookkeeping & Admin Tools (Staff Portal)
+- Separate database tables for:
+  - **Drinks**
+  - **Food**
+  - **Orders**
+- **Staff login** functionality to access admin features.
+- View key accounting insights:
+  - Total units sold
+  - Timestamps of transactions
+  - Best-selling items
+  - Profit tracking
+- **Inventory management** tools:
+  - Mark items as **sold out**
+  - Add **new specials**
+  - Introduce **new items**
+  - Remove **retired items**
+
+### Reports & Filtering
+- Generate **custom reports**.
+- Apply **filters** to analyse specific segments of the data (e.g., date range, item type).
+
+- ## Technologies Used
+
+- **C#**
+- **Windows Forms (WinForms)**
+- **.NET Framework**
+- **Microsoft SQL Server (Local DB)**
+
+---
+
+## Learning Outcomes
+
+This project highlights:
+- GUI design with user-friendly interaction.
+- Integration of databases with Windows applications.
+- Managing real-time inventory and dynamic data updates.
+- Designing role-based access (Clients vs. Staff).
+- Generating meaningful reports from relational data.
+
+---
+
+
+
+
