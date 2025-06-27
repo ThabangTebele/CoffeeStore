@@ -14,10 +14,10 @@ The goal of this application is to modernize and streamline the operations of **
 
 ###  User Interface
 - A **professional welcome screen** when the application launches.
-- A **centralized interface** (e.g., MDI - Multiple Document Interface) to avoid pop-up fatigue.
+- A **centralised interface** (e.g., MDI - Multiple Document Interface) to avoid pop-up fatigue.
 - Simple navigation for both clients and staff.
 
-### 🛍️ Client Ordering System
+###  Client Ordering System
 - Select from a range of **coffee, tea, pastries, and sandwiches**.
 - **Order review screen** where items can be removed before final submission.
 - Upon submitting, display a **receipt screen** summarizing the order.
